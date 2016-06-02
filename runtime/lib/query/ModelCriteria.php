@@ -1015,7 +1015,7 @@ class ModelCriteria extends Criteria
      * Clear the conditions to allow the reuse of the query object.
      * The ModelCriteria's Model and alias 'all the properties set by construct) will remain.
      *
-     * @return ModelCriteria The primary criteria object
+     * @return ModelCriteria|$this The primary criteria object
      */
     public function clear()
     {
